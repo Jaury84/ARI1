@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hola</title>
+</head>
+<body>
+<header>
+<table border="1">
+<tr>
+<ol>
+<h1>COCHES</h1>
+<td><h2>Nissan GT-R</h2></td>
+</tr>
+<tr>
+<td><p><img src="GTR.jpg" alt=" width="160px" height="160px"/></p></td>
+</tr>
+<td><li value="1">Velocidad máxima:315 km/h</li>
+<li>Precio: Desde 108.050 €</li>
+<li>Motor: 3,8 L V6</li>
+<li>Dimensiones: 4.710 mm L x 1.895 mm A x 1.370 mm A</li></td>
+</tr>
+</ol>
+<ol>
+<tr>
+<td><h2>Tesla X</h2></td>
+</tr>
+<tr>
+<td><img src="TESLAX.jpg" alt=" width="160px" height="160px"/></p>
+<li value="1">Dimensiones:5.052 mm L x 1.999 mm A x 1.684 mm A</li>
+<li>Batería: 100 kWh 400 V ion-litio</li>
+<li>Transmisión: automática de 1 velocidades</li>
+<li>Potencia: 562 a 796 CV</li></td>
+</tr>
+</ol>
+<ol>
+<tr>
+<td><h2>Ford Mustang Shelby GT350</h2></td>
+</tr>
+<tr>
+<td><p><img src="MUSTANG.jpg" alt=" width="160px" height="160px"/></p>
+<li value="1">Motor V8 de 5.2L</li>
+<li>Cilindrada5.163 cc</li>
+<li>Peso 1.720 kg</li>
+<li>Velocidad máxima 290 km/h</li></td>
+</tr>
+</ol>
+</table>
+<body>
+<h1>Formulario</h1>
+<form action="/ARI1/ehercicio%202/1.html">
+<label for="fname">Primer nombre:</label>
+<input type="text" id="fname" name="fname"><br><br>
+<label for="lname">segundo nombre:</label>
+<input type="text" id="lname" name="lname"><br><br>
+<input type="submit" value="enviar">
+</form>
+<a href="">
+</html>
