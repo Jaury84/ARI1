@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Hola</title>
+	</head>
+	<body style="text-align:center;
+	background-color:#A9CCE3;
+	">
+			<table	style="
+				display:inline-block;
+				width:25%;
+				height:800px;
+				text-align:left;				
+				border:0px;
+				">
+				display:inline-block;
+				width:80%;
+			">
+				<tr>
+
+					<h1 I B><p style="font-family:verdana">COCHES</p/B/I/h1>
+					<p>Esta es una lista de los 3 coches actuales que mas me gustan.</p>
+					<td BGCOLOR="#2471A3"colspan="2"><U>Nissan GT-R</U></td>
+
+				</tr>
+				<tr>
+					<td BGCOLOR="#AED6F1"colspan="2"width="75%"BACKGROUND="V8NISSAN.jpg"><img src="GTR.jpg" width="160px" height="160px" stylr="
+						width:400px;
+					">
+					</td>
+				</tr>
+				<tr>
+					<td BGCOLOR="#17202A"colspan="2">
+						<ol>
+							<font color="grey">
+								<b><li>Velocidad máxima</il></b>
+								<li>315 km/h</li>
+								<b><li>Precio</il></b>
+								<li>Desde 108.050 €</li>
+								<b><li>Motor</il></b>
+								<li>3,8 L V6</li>
+								<b><li>Dimensiones</il></b>
+								<li>4.710 mm L x 1.895 mm A x 1.370 mm A</li>
+							</font>
+						</ol>
+					</td>
+				</tr>
+				<tr>
+					<td BGCOLOR="#2471A3"colspan="2"><U>Tesla X</U></td>
+				</tr>
+				<tr>
+					<td BGCOLOR="#AED6F1 "colspan="2"width="75%"BACKGROUND="TESLAXMOTOR.jpg"><img src="TESLAX.jpg" width="160px" height="160px"/></td>
+				</tr>
+				<tr>
+					<td BGCOLOR="#17202A"colspan="2">
+						<ol>
+							<font color="F3F3F3">
+								<li><b>Dimensiones</b></li>
+								<li>5.052 mm L x 1.999 mm A x 1.684 mm A</li>
+								<li><b>Batería</b></li>
+								<li>100 kWh 400 V ion-litio</li>
+								<li><b>Transmisión</b></li>
+								<li>automática de 1 velocidades</li>
+								<li><b>Potencia</b></li>
+								<li>562 a 796 CV</li>
+							</font>
+						</ol/>
+					</td>
+				</tr>
+				<tr>
+					<td BGCOLOR="#2471A3"colspan="2"><U>Ford Mustang Shelby GT350</U/></td>
+				</tr>
+				<tr>
+					<td BGCOLOR="#AED6F1 "colspan="2"width="75%"BACKGROUND="V8MUSTANG.jpg"><img src="MUSTANG.jpg" width="160px" height="160px"/>
+				</tr>
+				<tr>
+					<td BGCOLOR="#17202A"colspan="2">
+						<ul>
+							<font color="#40D6F9 ">
+								<li><b>Motor</b></li>
+								<li>V8 de 5.2L</li>g
+								<li><b>Cilindrada</b></li	
+								<li>5.163 cc</li>
+								<li><b>Peso</b></li>
+								<li>1.720 kg</li>
+								<li><b>Velocidad máxima</b></li>
+								<li>290 km/h</li></td>
+							</font>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<h2>Valoraciones del 1 al 10</h2>
+			<table border="1" style="
+			display:inline-block;
+			">
+				<tr>
+					<td rowspan="3"BGCOLOR="#2471A3"colspan="2"><p><U><font color="red">VALORACION</font></U></p></td>
+					<td BGCOLOR="#17202A"colspan="2"><p><font color="red">Nissan GT-R</font></p></td>
+					<td><p><b>8/10</b></p></td>
+				</tr>
+				<tr>
+					<td BGCOLOR="#17202A"colspan="2"><p><font color="red">Tesla X</font></p></td>
+					<td><p><b>9/10</b></p></td>
+				</tr>
+				<tr>
+					<td BGCOLOR="#17202A"colspan="2"><p><font color="red">Ford Mustang Shelby GT350</font></p></td>
+					<td><p><b>8/10</b></p></td>
+				</tr>
+			</table>
+			<div style = "background-color: white; width: 300px;">
+				<h3><i><p>En mi valoracion el Tesla x<br>
+				es el mejor de los 3 coches</p></i></h3>
+			</div>
+			<h3>Formulario</h3>
+			<form>
+  				<label for="fname">Nombre:</label>
+  				<input type="text" id="fname" name="fname"/><br/></input>
+  				<label for="lname">apellidos:</label>
+  				<input type="text" id="lname" name="lname"/><br/></input>
+  				<input type="button" value="button"></input>
+			</form>
+			<h4>Lista paginas compañeros</h4>
+			<ol>
+				<li><a href="https://hectorguti99.000webhostapp.com/LosCorralesdeBuelna1.html">Hector</a></il>
+				<li><a href="https://puentesanmiguel.000webhostapp.com/tabla.html>Valentin</a></il>
+				<li><a href="https://smart-congress.000webhostapp.com/PaginaHTML.html">Fran</a></il>
+				<li><a href="https://cantabria-infinita.000webhostapp.com/html.html.">Eduardo</a></il>
+			</ol>
+	</body>
+</html>
