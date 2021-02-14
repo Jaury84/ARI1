@@ -1,0 +1,21 @@
+<img src="CUBO.jpg" alt="" width="892px" height="536px"/>
+<div>'
+		<input	id="m3" name="m3" placeholder="metros cubicos" onkeyup="calcular()"value="13.5"/>
+		<button onclick="calcular()">Calcular</button>
+</div>
+<div	id="resultado"	style="
+		padding:30px;
+		background-color:pink;
+		width:vw
+		">
+</div>
+<script>
+
+console.log("Vamos a calcular las dimensiones del deposito");
+function calcular(){
+	m3=document.getElementById("m3").value;
+	document.getElementById("resultado").innerHTML=((2*m3)**(1/3));;
+	}
+	calcular();
+</script>
+

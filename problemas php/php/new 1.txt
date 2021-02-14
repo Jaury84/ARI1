@@ -1,0 +1,60 @@
+<div>
+<?php
+
+
+$companero=[
+	'Andres',
+	'Sergio',
+	'Andres',
+	'Ivan',
+	'Pablo',
+	'Alberto',
+	'Hector',
+	'Eduardo',
+	'Pablo',
+	'Jaury',
+	'Pablo',
+	'Sergio',
+	'Valentin',
+	'Fran',
+];
+sort($companero);
+
+echo 'uno';
+
+foreach($companero as $c){
+		echo $c;
+}
+echo 'cuatro';
+?>
+</div>
+<div>
+<?php
+
+
+$sitio=[
+	'Madagascar',
+	'Marruecos',
+	'Letonia',
+	'Bogota',
+	'El cairo',
+	'New york',
+	'Texas',
+	'Estambul',
+	'Ungria',
+	'Letonia',
+	'Madrid',
+	'Berlin',
+	'Pequin',
+	'Japon',
+];
+sort($sitio);
+
+echo 'Paises';
+
+foreach($sitio as $c){
+		echo $c;
+}
+echo 'cuatro';
+?>
+</div>

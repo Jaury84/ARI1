@@ -1,0 +1,70 @@
+<img src="mariayana.jpg" alt="" width="892px" height="536px"/>
+<div>
+		<input	id="A" name="A" placeholder="Año1" onkeyup="calcular()" value="<?=$_GET['A']?>"/>
+		<input	id="B" name="B" placeholder="Año2" onkeyup="calcular()" value="<?=$_GET['B']?>"/>
+		<input	id="F" name="F" placeholder="Factor" onkeyup="calcular()" value="<?=$_GET['F']?>"/>
+		<input	id="S" name="S" placeholder="Suma" onkeyup="calcular()" value="<?=$_GET['S']?>"/>
+		<button onclick="calcular()">Calcular</button>
+</div>
+<div	id="resultado1"	style="
+		padding:30px;
+		background-color:pink;
+		width:vw
+		">
+</div>
+<div	id="resultado2"	style="
+		padding:30px;
+		background-color:pink;
+		width:vw
+		">
+</div>
+<div	id="resultado3"	style="
+		padding:30px;
+		background-color:pink;
+		width:vw
+		">
+</div>
+<div	id="resultado4"	style="
+		padding:30px;
+		background-color:pink;
+		width:vw
+		">
+</div>
+<div	id="resultado5"	style="
+		padding:30px;
+		background-color:pink;
+		width:vw
+		">
+</div>
+<script>
+
+console.log("Vamos a calcular las edades de Ana y Maria");
+function calcular(){
+	A=document.getElementById("A").value;
+	B=document.getElementById("B").value;
+	F=document.getElementById("F").value;
+	S=document.getElementById("S").value;
+	document.getElementById("resultado1").innerHTML=(S-(2*B)+(2*A))/4;
+	document.getElementById("resultado2").innerHTML=(Y*F);
+	document.getElementById("resultado3").innerHTML=(A-Y);
+	document.getElementById("resultado4").innerHTML=(A-X);
+	document.getElementById("resultado5").innerHTML=(X-Y);
+	}
+</script>HOLA MUNDO
+<?php
+$A=$_GET['A'];
+$B=$_GET['B'];
+$F=$_GET['F'];
+$S=$_GET['S'];
+$Y=($S-(2*$B)+(2*$A))/4;
+$X=$Y*$F);
+$A3=($A-$Y);
+$A4=($A-$x);
+$Z=($X-$Y);
+echo $Y;
+echo $A3;
+echo $A4;
+echo $Z;
+?>
+
+

@@ -1,0 +1,64 @@
+<img src="mariayana.jpg" alt="" width="892px" height="536px"/>
+<div>
+		<input	id="A" name="A" placeholder="Año1" onkeyup="calcular()"value="2010">
+		<input	id="B" name="B" placeholder="Año2" onkeyup="calcular()"value="2015">
+		<input	id="F" name="F" placeholder="Factor" onkeyup="calcular()"value="3">
+		<input	id="S" name="S" placeholder="Suma" onkeyup="calcular()" value="54">
+		<button onclick="calcular()">Calcular</button>
+</div>
+<div	id="resultado1"	style="
+		padding:30px;
+		background-color:pink;
+		width:vw
+		">
+</div>
+<div	id="resultado2"	style="
+		padding:30px;
+		background-color:pink;
+		width:vw
+		">
+</div>
+<div	id="resultado3"	style="
+		padding:30px;
+		background-color:yellow;
+		width:vw
+		">
+</div>
+<div	id="resultado4"	style="
+		padding:30px;
+		background-color:pink;
+		width:vw
+		">
+</div>
+<div	id="resultado5"	style="
+		padding:30px;
+		background-color:pink;
+		width:vw
+		">
+</div>
+<script>
+
+console.log("Vamos a calcular las edades de Ana y Maria");
+function calcular(){
+	A=document.getElementById("A").value;
+	B=document.getElementById("B").value;
+	F=document.getElementById("F").value;
+	S=document.getElementById("S").value;
+	
+	Y=Math.round(S-(2*B)+(2*A))/4;
+	document.getElementById("resultado1").innerHTML=Y+"		Edad Maria";
+	X=Math.round(Y*F);
+	document.getElementById("resultado2").innerHTML=X+"		Edad Ana";
+	A3=Math.round(A-Y);
+	document.getElementById("resultado3").innerHTML=A3+"	Año nacimiento Ana";
+	A4=Math.round(A-X);
+	document.getElementById("resultado4").innerHTML=A4+"	Año nacimiento Maria";
+	Z=Math.round(X-Y);
+	document.getElementById("resultado5").innerHTML=Z+"		Edad de Maria cuando nacio Ana";
+	}
+</script>
+<?php
+print_r($_GET);
+?>
+
+

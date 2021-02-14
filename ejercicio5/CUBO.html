@@ -1,0 +1,23 @@
+Se quiere construir un depósito abierto de base cuadrada y paredes verticales con capacidad para 13.5 m3. Para ello se dispone de una chapa de acero de grosor uniforme. Calcula las dimensiones del depósito para que el gasto en chapa sea el mínimo posible
+<div>
+	<form>
+		<input	id="m3" name="m3" placeholder="metros cubicos" onkeyup="calcular()"value="13.5">
+		<button onclick="calcular()">Calcular</button>
+	</form>
+</div>
+<div	id="resultado"	style="
+		padding:30px;
+		background-color:pink;
+		width:vw
+		">
+</div>
+<script>
+
+console.log("Vamos a calcular la intensidad que circula por una resistencia");
+function calcular(){
+	r=document.getElementById("r").value;
+	v=document.getElementById("v").value;
+	i=Math.round(v/r*1000)/1000;
+	document.getElementById("resultado").innerHTML=i+" Amperios" ;
+	}
+</script>

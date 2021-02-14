@@ -1,0 +1,29 @@
+Utilizando la fórmula del área del trapecio A=(B+b)*h/2, determina la base mayor de un trapecio de altura 4 cm y de superficie 14cm2, sabiendo que la base menor es de 2
+<div>
+	
+		<input	id="A" name="A" placeholder="Area" onkeyup="calcular()">
+		<input	id="b" name="b" placeholder="Base menor" onkeyup="calcular()">
+		<input	id="h" name="h" placeholder="Altura" onkeyup="calcular()">		
+		<button onclick="calcular()">Calcular</button>
+	
+</div>
+<div	id="resultado"	style="
+		padding:30px;
+		background-color:pink;
+		width:vw
+		">
+</div>
+<script>
+
+console.log("Vamos a calcular la base mayor de un trapecio");
+function calcular(){
+	A=document.getElementById("A").value;
+	b=document.getElementById("b").value;
+	h=document.getElementById("h").value;
+	B=Math.round((A*2)/h)-b;
+	document.getElementById("resultado").innerHTML=B+"cm";
+	}
+</script>
+<?php
+print_r($_GET);
+?>

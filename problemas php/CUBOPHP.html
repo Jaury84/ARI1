@@ -1,13 +1,7 @@
-<?php
-if(!isset($_GET['m3']))  $_GET['m3']=13.5;
-?>
-
-<img src="cubo.jpg" alt="" width="892px" height="536px"/>
-<div>
-<form>
+<img src="CUBO.jpg" alt="" width="892px" height="536px"/>
+<div>'
 		<input	id="m3" name="m3" placeholder="metros cubicos" onkeyup="calcular()" value="<?=$_GET['m3']?>"/>
 		<button onclick="calcular()">Calcular</button>
-</form>
 </div>
 <div	id="resultado"	style="
 		padding:30px;
@@ -20,12 +14,12 @@ if(!isset($_GET['m3']))  $_GET['m3']=13.5;
 console.log("Vamos a calcular las dimensiones del deposito");
 function calcular(){
 	m3=document.getElementById("m3").value;
-	document.getElementById("resultado").innerHTML=Math.round(((2*m3)**(1/3))*100)/100+"m";
-	}
+	document.getElementById("resultado").innerHTML=((2*m3)**(1/3));
+}
 calcular();
 </script>
 
 <?php
-	$m3=round ($_GET['m3'],2);
-	echo round (((2*$m3)**(1/3)),2)."m";
+	$m3=$_GET^['m3'];
+	echo ((2*$m3)**(1/3));
 ?>

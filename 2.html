@@ -1,0 +1,25 @@
+Se quiere construir un jardín de 1 m de ancho alrededor de una fuente circular de 4 m de diámetro. Para rodear el jardín con una valla, ¿cuántos m lineales son necesarios?
+<div>
+	<input	id="A" name="A" placeholder="Ancho" onkeyup="calcular()">
+	<input	id="D" name="D" placeholder="Diametro" onkeyup="calcular()">
+	<button onclick="calcular()">Calcular</button>
+</div>
+<div	id="resultado"	style="
+		padding:30px;
+		background-color:pink;
+		width:vw
+		">
+</div>
+<script>
+
+console.log("Vamos a calcular la circunferencia");
+function calcular(){
+	A=document.getElementById("A").value;
+	D=document.getElementById("D").value;
+	C=Math.round(3.14159265359*(D+A));
+	document.getElementById("resultado").innerHTML=C+"Circunferencia" ;
+	}
+</script>
+<?php
+print_r($_GET);
+?>
