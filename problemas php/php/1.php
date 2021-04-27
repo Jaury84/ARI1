@@ -1,4 +1,4 @@
-<?php
+3<?php
 if(!isset($_GET['companero']))
 $_GET['companero']=1;
 
